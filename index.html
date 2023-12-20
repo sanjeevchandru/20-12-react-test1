@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>React test 1</title>
+    </head>
+    <body>
+        <pre>
+            3.How to create react application? 
+            i).Install Create React App(npx i cerate-react-app Sample)sample=>folder name
+            ii).Overview of React App Structure
+            iii).Starting the React App Development Server
+            iv).Using the React Testing Library to Run Tests
+            ---------------------------------------------------------------------------
+            4.Write a syntax of class component.
+            import React,{Component} from 'react';
+            export class Home extends Component{
+                render(){
+                    return(
+                        < div>
+
+                        < div/>
+                    )
+                }
+            }
+            ---------------------------------------------------------------------------
+
+            5.Write a syntax of function component.
+            import React form 'react';
+            export const Home=()=>{
+                return(
+                    < div>
+                    < /div>
+                )
+            }
+
+            ---------------------------------------------------------------------------
+            6.Write any 3 packages installing comment.
+            i) npm i react-icons
+            ii) npm i sass
+            iii) npm i styled-components
+
+            ---------------------------------------------------------------------------
+            7.What is Props? 
+            the props are a type of object where 
+            the value of attributes of a tag is stored.
+
+            Props is a special keyword in React that 
+            stands for properties and is used for 
+            passing data from one component to another.
+            ---------------------------------------------------------------------------
+            
+            8.Write any one example of props.
+            Home.js
+
+            import React from 'react';
+            import {Service} from './Service';
+            export class Home extends Component{
+                render(){
+                    let x="sanjeev";
+                    return(
+                        < div>
+                            < Service a={x}/>
+                        < /div>
+                    )
+                }
+            }
+
+            Service.js
+
+            import React form 'react';
+            export class Service extends Component{
+                render(){
+                    return(
+                        < div>
+                            < h1>{this.props.a}< /h1>
+                        < /div>
+                    )
+                }
+            }
+
+        </pre>
+        <script src="main.js"></script>
+    </body>
+</html>
